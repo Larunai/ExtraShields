@@ -17,7 +17,7 @@ public class ExtraShieldsItemRender {
 
 	public static void regItem(Item item) {
 		
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(ExtraShieldsGlobal.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 		
 	}
 }

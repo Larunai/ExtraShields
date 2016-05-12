@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = ExtraShieldsGlobal.MOD_ID, name = ExtraShieldsGlobal.MOD_NAME, version = ExtraShieldsGlobal.VERSION)
 public class ExtraShields {
