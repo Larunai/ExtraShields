@@ -8,4 +8,6 @@ public class ExtraShieldsGlobal {
 
 	public static final String EXTRASHIELDS_CLIENT_PROXY = "me.larunai.extrashields.proxy.ClientProxy";
 	public static final String EXTRASHIELDS_COMMON_PROXY = "me.larunai.extrashields.proxy.CommonProxy";
+	
+	public static final ExtraShieldsCreativeTab extrashieldsCreativeTab = new ExtraShieldsCreativeTab("extrashieldsCreativeTab");
 }

@@ -1,6 +1,7 @@
 package me.larunai.extrashields.proxy;
 
 import me.larunai.extrashields.render.ExtraShieldsBlockRender;
+import me.larunai.extrashields.render.ExtraShieldsItemRender;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -18,6 +19,7 @@ public class ClientProxy extends CommonProxy {
 		super.init(event);
 		
 		ExtraShieldsBlockRender.registerBlockRender();
+		ExtraShieldsItemRender.registerItemRender();
 		
 	}
 	

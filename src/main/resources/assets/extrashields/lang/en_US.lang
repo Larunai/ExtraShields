@@ -1,2 +1,8 @@
+//CreativeTab
+itemGroup.extrashieldsCreativeTab=Extra Shields
+
 //Blocks
 tile.testdummyBlock.name=Testdummy Block
+
+//Items
+item.testdummyItem.name=Testdummy Item
