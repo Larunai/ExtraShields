@@ -5,11 +5,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ExtraShieldsItems {
 	
-	public static Item testdummyItem;
+	public static Item testdummyItem = new ExtraShieldsItem("testdummyItem");
 	
 	public static void initItems() {
 		
-		GameRegistry.registerItem(testdummyItem = new ExtraShieldsItem("testdummyItem"), "testdummyItem");
+		GameRegistry.register(testdummyItem);
 		
 	}
 
